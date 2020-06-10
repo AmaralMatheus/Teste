@@ -15,6 +15,7 @@ Controle de vendas e vendedores, com uma api contendo os seguintes endpoints:
 - GET /api/vendas -> retorna as vendas.
 - GET /api/vendedores/{id} -> retorna o vendedor com as vendas.
 - POST /api/vendedores -> cadastra um vendedor, espera um objeto { nome: 'nome', email: 'email' }.
+- POST /api/vendas -> cadastra uma venda, espera um objeto { valor: numérico, data: datetime, vendedor: id do vendedor }.
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
