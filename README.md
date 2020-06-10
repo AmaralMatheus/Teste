@@ -19,6 +19,15 @@ Controle de vendas e vendedores, com uma api contendo os seguintes endpoints:
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Exemplos
+
+![Alt text](/screenshots/1.png?raw=true "Optional Title")
+![Alt text](/screenshots/2.png?raw=true "Optional Title")
+![Alt text](/screenshots/3.png?raw=true "Optional Title")
+![Alt text](/screenshots/4.png?raw=true "Optional Title")
+![Alt text](/screenshots/5.png?raw=true "Optional Title")
+![Alt text](/screenshots/5.png?raw=true "Optional Title")
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
