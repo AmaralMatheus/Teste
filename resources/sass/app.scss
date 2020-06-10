@@ -1,0 +1,70 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.card-header {
+  background: linear-gradient(141deg, #1fc8db 25%, #2cb5e8 75%);
+  color: white;
+  align-items: center;
+}
+
+.card {
+  margin-top: 25px;
+  -webkit-box-shadow: 0px 2.5px 25px 0px rgba(214,214,214,0.54);
+  -moz-box-shadow: 0px 2.5px 25px 0px rgba(214,214,214,0.54);
+  box-shadow: 0px 2.5px 25px 0px rgba(214,214,214,0.54);
+}
+
+.nav {
+  background: linear-gradient(141deg, #1fc8db 25%, #2cb5e8 75%);
+}
+
+a {
+  color: white;
+  transition: 0.2s !important;
+}
+
+.btn-wrapper {
+  background-color: white !important;
+  border-radius: 5px;
+  color: white !important;
+  transition: 0.2s;
+}
+.btn-wrapper:hover {
+  background: linear-gradient(141deg, #1fc8db 25%, #2cb5e8 75%);
+}
+.btn-wrapper:focus {
+  -webkit-box-shadow: inset 10px 10px 89px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 10px 10px 89px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 10px 10px 89px 0px rgba(0,0,0,0.75);
+}
+
+.wrap-border {
+  border: solid 1px #1fc8db;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  border: solid 0px white;
+  background: linear-gradient(141deg, #1fc8db 25%, #2cb5e8 75%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.2s;
+}
+.btn-primary:hover {
+  border-radius: 10px;
+  color: white !important;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0px 2.5px 25px 0px rgba(214,214,214,0.54);
+  -moz-box-shadow: 0px 2.5px 25px 0px rgba(214,214,214,0.54);
+  box-shadow: 0px 2.5px 25px 0px rgba(214,214,214,0.54);
+}
+
+.table {
+  margin-bottom: 0px;
+}
